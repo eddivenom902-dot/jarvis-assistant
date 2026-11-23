@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050b16">
+  <title>J.A.R.V.I.S.</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      padding: 24px;
+      background: radial-gradient(
+        circle at center,
+        #10283b 0%,
+        #050b16 62%
+      );
+      color: #d9f3ff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    h1 {
+      letter-spacing: 7px;
+      color: #75d9ff;
+      text-shadow: 0 0 18px #168dcc;
+    }
+
+    p {
+      color: #9bb9ca;
+    }
+
+    elevenlabs-convai {
+      display: block;
+      width: 100%;
+      max-width: 520px;
+      margin-top: 28px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>J.A.R.V.I.S.</h1>
+
+  <p>Personal AI Assistant — Online</p>
+
+  <elevenlabs-convai
+    agent-id="agent_8601m82qtvgbfajb2sgfxfsbdft2"
+    variant="expanded">
+  </elevenlabs-convai>
+
+  <script
+    src="https://unpkg.com/@elevenlabs/convai-widget-embed"
+    async>
+  </script>
+
+</body>
+</html>
